@@ -77,7 +77,7 @@ include("sql_base.php");
 		$errmsg = $errors[3];
 	}
 	if($host == "116.203.17.236" && $errmsg == null){
-		$errmsg = "Yarrak vurursun";
+		$errmsg = "";
 	}
 	if($fark < $verihub['time'] && $errmsg == null){
 		$errmsg = $errors[5];
